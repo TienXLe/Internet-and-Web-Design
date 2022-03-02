@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cambria', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -38,7 +38,7 @@ body {
   float: right;
   border: none;
   margin: 15px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .navigation ul {
@@ -60,8 +60,6 @@ body {
   letter-spacing: 4px;
 }
 
-
-/*Bo code nay thi se doi kieu menu*/
 .navigation li {
 		display: inline;
 	}
@@ -74,11 +72,30 @@ body {
   width: 100%;
 }
 
-#banner .content h1 {
-  border: 3px solid pink;
+#banner .content {
+  
   position: absolute;  
-  width: 400px;
-  margin: 5px auto;
+  width: 40%;
+  height:100%;
+  margin: auto;
+  padding:auto;
+  text-align: center;
+  	
+  display: block;
+ 
+}
+#banner .content h2{
+   font-family: 'Trebuchet MS', sans-serif;
+   padding-top: 20%;
+   margin-bottom:-20px;	
+   color:Brown;	
+}
+
+#banner .content p{
+   color: black;
+   font-size:18px;
+   padding-top: -10%;
+   margin-top: -2%;		
 }
 
 #main {
@@ -90,19 +107,9 @@ body {
 }
 
 h1 {
-  color: white;
+  color: White;
   font-size: 42px;
   font-weight: 600;
-  text-align: center;
-}
-
-h2 {
-  border: 1px dotted red;
-  color: red;
-  font-size: 14px;
-  line-height: 48px;
-  padding: 20px 30px;
-  margin: 30px 20px;
   text-align: center;
 }
 
@@ -139,11 +146,6 @@ p {
 	width:300px;
 }
 
-.pull-quote {
-  margin: 0 auto;
-  width: 400px;
-}
-
 .byline {
   border-bottom: 1px solid LightGrey;
   border-top: 1px solid LightGrey;
@@ -153,7 +155,6 @@ p {
 }
 
 .share {
-  border: 1px solid LightGrey;
   padding: 40px 0px;
   position: relative;
   text-align: center;
