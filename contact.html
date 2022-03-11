@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Beauty Shop</title>
+  <!--<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <span><input type="text" font-size="12" placeholder="Enter Search Keyword"></span>
+  </div>
+  <h1>Beauty Shop</h1>
+</header>
+<div class="first-single-page">
+    <div class="subtitle">
+        <br/>
+        MESSAGE
+        <br/>
+    </div>
+    <h2 class="center"><span class="italic-pink">Have a question?</span> <br>We’d love to hear from you.</h2>
+    <div class="block-contact">
+      <div class="block-form-container">
+        <form id="message" method="get" class="form-block-contact" action="#">
+          <label for="Name">Your name:</label>
+          <input type="text" class="text-field" autofocus="true" maxlength="256" name="Name"  placeholder="Name" id="Name" required="">
+          <label for="Email">Your email:</label>
+          <input type="email" class="text-field w-input" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" autofocus="true" maxlength="256" name="Email" placeholder="Email address" required="Invalid email">
+          <label for="city">Your City:</label>
+          <select id="city">
+            <optgroup label="King">
+              <option>Tacoma</option>
+              <option>Kent</option>
+              <option>Auburn</option>
+            </optgroup>
+            <optgroup label="Other">
+              <option>Other</option>
+            </optgroup>
+          </select>
+          <label for="Message">Your message:</label>
+          <textarea placeholder="Your message…" maxlength="5000" id="Message" name="Message"  required="" autofocus="true" class="textArea" spellcheck="false" style="height: 140px;">
+          </textarea>
+          <input type="submit" value="Send Message"  class="submit-button w-button">
+        </form>
+      </div>
+    </div>
+</div>
+<!--Footer Section-->
+<div class="section-footer">
+  <div class="content-footer">
+    <div class="w-layout-grid grid-footer">
+      <div id="siteTextLogo" class="column-footer flex-horizontal">
+        <h1>
+          Beauty Shop
+        </h1>
+      <div class="block-social">
+        <a href="https://www.facebook.com/beautyshop" target="_blank" class="link-social w-inline-block">
+          <img src="https://assets-global.website-files.com/617262a8373080c01d2dfc2c/617262a93730802e482dfc7a_Facebook.svg" width="15" height="15" alt="" class="icon-social"/>
+        </a>
+        <a href="https://www.youtube.com/beautyshop" target="_blank" class="link-social w-inline-block">
+          <img src="https://assets-global.website-files.com/617262a8373080c01d2dfc2c/617262a937308072132dfc7d_Youtube.svg" width="15" height="15" alt="" class="icon-social"/>
+        </a><a href="https://www.instagram.com/beautyshop" target="_blank" class="link-social w-inline-block">
+          <img src="https://assets-global.website-files.com/617262a8373080c01d2dfc2c/617262a93730803d092dfc7c_Instagram.svg" width="15" height="15" alt="" class="icon-social"/>
+        </a>
+      </div>
+    </div>
+    <div class="column-footer footer-content">
+      <div class="info-footer">content<br/>
+      </div>
+      <a href="/watch-strategy" target="_blank" class="link-footer">Products<br/></a>
+      <a href="/blog" target="_blank" class="link-footer"> Top Sale</a>
+    </div>
+    <div class="column-footer footer-content">
+      <div class="info-footer">about us<br/>
+      </div>
+      <a href="/features" target="_blank" aria-current="page" class="link-footer w--current">Features</a>
+      <a href="/about-us" target="_blank" class="link-footer">Our Team</a>
+      <a href="/reviews" target="_blank" class="link-footer">Reviews</a>
+    </div>
+    <div class="column-footer footer-content">
+      <div class="info-footer">get in touch<br/></div>
+      <a href="/contact-us" target="_blank" class="link-footer">Contact</a>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
